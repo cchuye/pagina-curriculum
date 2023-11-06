@@ -1,0 +1,33 @@
+#titulo{
+    font-size: 50px;
+    margin-top: 4%;
+    margin-left: 12%
+}
+
+.lineahorizontal{
+  width: 19%; /* Ancho completo de su contenedor */
+  border: none; /* Sin borde */
+  border-top: 5px solid #F7F300; /* Grosor y color de la línea (en este caso, 1px de grosor y negro) */
+  margin-top: 8.5%;
+  position: absolute;
+  margin-left: 25%;
+}
+
+#letra{
+    position: absolute;
+    font-size: 170px;
+    margin-top: 4.70%;
+    margin-left: 11.2%;
+    color:#E2E2E2;
+}
+
+.textos{
+    position: absolute;
+    text-align: justify;
+    width: 40%;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 10.50%;
+    margin-left: 25%;
+    line-height: 1.5; /* Espacio entre lineas*/
+}

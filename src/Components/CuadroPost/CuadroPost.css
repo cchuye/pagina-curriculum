@@ -1,0 +1,59 @@
+.divContenedor{
+    display: flex;
+    width: 100%;
+    background-color: #202020;
+    height: 72vh;
+}
+  
+h2{
+      font-weight: bolder;
+      text-align: left;
+      margin-top: 15%;
+      color: #B7B7B7;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: xx-large;
+}
+  
+.parrafo{
+      text-align: justify;
+      font-size: small;
+      font-family: 'Century Gothic';
+      color: #B7B7B7;
+      margin-right: 20%;
+}
+  
+.divInfo{
+      display: inline-block;
+      width: 40%; /* Ajusta el valor para hacer este div más grande */
+}
+  
+.divInfo2{
+      width: 60%; /* Ajusta el valor para hacer este div más grande */
+      margin-left: 1%;
+}
+  
+.imagenClass{
+    margin-left: 30%;
+}
+  
+#imgIcono{ 
+      width: 90%; /* Ajustar el tamaño de la imagen */
+      height: auto; /* Mantener la proporción original */
+}
+
+.sobre-mi-button3{
+      margin-top: 30px; /* Espacio entre el texto y el botón */
+      padding: 10px 40px; /* Espaciado interno del botón */
+      background-color: #F7F300; /* Color de fondo del botón */
+      color: black; /* Color del texto del botón */
+      border: none; /* Elimina el borde del botón */
+      cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+      font-size: medium; /* Tamaño de fuente del botón */
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: bold; 
+}
+
+.sobre-mi-button3:hover {
+      background-color: black; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+      color:#F7F300;
+}

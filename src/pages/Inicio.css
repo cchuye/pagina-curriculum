@@ -1,0 +1,127 @@
+body {
+    background-color:#ECECEC ;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* Organiza los elementos en fila */
+    align-items: flex-start; /* Alinea los elementos en la parte superior del eje vertical */
+    margin: 0;
+}
+
+.cuadro-negro {
+    width: 40%; /* Cambiado a 30% */
+    background-color: #171717;
+    color: white;
+    padding: 1%;
+    height: 85.6vh;
+    margin: 0; /* Elimina el margen del cuadro negro */
+}
+  
+.layout-container {
+    width: 60%; /* Cambiado a 70% */
+    margin: 0;
+    padding: 0;
+}
+  
+.imagen-container {
+    width: 33.33%; /* Deja espacio para el cuadro negro */
+    height: 80vh; /* Igualar la altura del cuadro-negro */
+    display: flex;
+    margin: 0; /* Elimina el margen del contenedor de imágenes */
+}
+  
+img {
+    max-width: 100%; /* Ancho igual al del layout-container */
+    max-height: 100%; /* Altura igual a la del contenedor de imágenes */
+    object-fit: cover; /* Controla cómo se ajustan las imágenes */
+    margin: 0; /* Elimina el margen de las imágenes */
+ }
+
+.nombre-texto {
+    position: absolute; /* Permite posicionarlo encima del cuadro negro */
+    top: 50%; /* Ajusta la posición vertical */
+    left: 22%; /* Ajusta la posición horizontal */
+    padding: 5px;
+    color:white;
+    font-size:xx-large;
+    font-weight:bolder;
+    z-index: 1; /* Asegura que esté encima del cuadro negro */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nombre-texto p {
+    margin: 0; /* Elimina el margen entre los párrafos */
+    font-size: xx-large; /* Aumenta el tamaño de la fuente */
+    font-weight: bolder; /* Hace la fuente más gruesa */
+    line-height: 1; /* Elimina cualquier espacio extra entre las líneas de texto */
+}
+
+.sobre-mi-button {
+    margin-top: 20px; /* Espacio entre el texto y el botón */
+    padding: 10px 70px; /* Espaciado interno del botón */
+    background-color: #F7F300; /* Color de fondo del botón */
+    color: black; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    font-size: large; /* Tamaño de fuente del botón */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.sobre-mi-button:hover {
+    background-color: white; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+    color: black;
+}
+
+.cuadro-pequeño{
+    background-color: #202020;
+    margin-left: 20%;
+    margin-top: 6%;
+    width: 25%;
+    height: 55vh;
+}
+
+#yo{
+    width: 25%;
+    height: 55vh; 
+    margin: 0; 
+    position: absolute; 
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.inclined-line {
+    width: 150px; /* Longitud horizontal de la línea */
+    height: 30px; /* Grosor de la línea */
+    background-color: #F7F300; /* Color de la línea */
+    transform: rotate(145deg); /* Rota la línea 45 grados (inclinada hacia la derecha) */
+    position: absolute; 
+    font-weight: bold;
+    margin-left: 17%;
+    margin-top: 0.80%;
+  }
+  
+h1{
+    position: absolute; 
+    margin-left: 35%;
+    margin-top: 8%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder; 
+}
+
+.heart {
+    position: absolute; 
+    margin-left: 43%;
+    margin-top: 8%;
+    font-size: 24px; /* Cambia el tamaño del corazón */
+}
+
+.div-info{
+    position: absolute; 
+    width: 25%;
+    height: 55vh;
+    text-align: justify;
+    margin-left: 35%;
+    margin-top: 11%;
+}

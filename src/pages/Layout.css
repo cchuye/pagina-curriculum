@@ -1,0 +1,33 @@
+.contenedor {
+  display: flex; /* Utilizar flexbox para organizar los elementos */
+}
+
+.navegacion {
+  flex: 0 0 100%; /* El nav tiene una altura automática */
+  background-color: #5D5D5D;
+  color: white;
+  height: 10vh;
+}
+  
+ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+
+a:hover {
+    border-bottom: 2px solid #F7F300; /* Subrayado rojo al pasar el mouse por encima */
+}
+
+h1{
+  color: #2A2A2A;
+}
+
+.active {
+  border-bottom: 2px solid #F7F300;
+}

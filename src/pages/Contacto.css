@@ -1,0 +1,67 @@
+.divcontacto {
+    background-color: #1D1D1D;
+    width: 35%;
+    height: 50vh;
+    margin-left: 35%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección de los elementos a columna */
+}
+
+
+.info {
+    font-size: 25px;
+    color: #D5D5D5;
+    margin-top: 50px; /* Ajusta el espacio entre el título y el primer divitem */
+    margin-left: 50px;
+}
+
+.divitem {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height:15%;
+    margin-left: 55px;
+}
+
+.icon {
+    width: 27x;
+    height: 27px;
+    margin-right: 10px; /* Ajusta el espacio entre el icono y el texto */
+}
+
+.item {
+    font-size: 16px;
+    color: #D5D5D5;
+    margin-left: 10px; /* Ajusta el espacio entre el icono y el texto */
+}
+
+.imagenred{
+    width: 100%;
+    height:100%;
+}
+
+.botonesred{
+    margin-left: 63.3%;
+    margin-top: 2px;
+}
+
+.botonred{
+    margin-left: 5px;
+    padding: 0;
+    height: 5%;
+    width: 5%;
+    border: 0;
+}
+
+.circulo-amarillo {
+    position: absolute;
+    width: 35px; /* Ajusta el tamaño del círculo según tus preferencias */
+    height: 35px; /* Ajusta el tamaño del círculo según tus preferencias */
+    background-color: #F7F300; /* Color de fondo amarillo */
+    border-radius: 50%; /* Para que sea un círculo */
+    top: 43%; /* Ajusta la posición vertical del círculo */
+    left: 70%; /* Ajusta la posición horizontal del círculo */
+    transform: translate(-50%, -50%); /* Centra el círculo */
+    border: 2px solid #202020; 
+  }

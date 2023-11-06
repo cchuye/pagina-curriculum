@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.container2 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.lineaVertical {
+    width: 50px; /* Ancho deseado para el contenedor */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 27vh; /* Altura deseada para el contenedor */
+}
+
+.anio {
+    margin-top: 100px;
+    margin-left: 110px;
+    transform: rotate(-90deg); /* Rota el texto 45 grados hacia la izquierda */
+    transform-origin: 0 100%; /* Establece el punto de rotación en la esquina superior izquierda */
+    white-space: nowrap; /* Evita el ajuste automático de texto */
+    position: relative;
+    left: 15px; /* Ajusta la posición horizontal del texto inclinado */
+    font-size: 22px;
+}
+
+.titulo{
+    color: #252525;
+    font-size: 17px;
+    font-style: bold;
+}
+
+.subtitulo{
+    color: #252525;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.titulo, .subtitulo {
+    margin: 5px; /* Elimina el margen entre h3 y h4 */
+}
+
+.texto{
+    font-size: 12px;
+    width: 90%; 
+    margin-top: 15px;
+    font-style: normal;
+    margin-left: 5px;
+    text-align: justify;
+}

@@ -1,0 +1,41 @@
+.cuadro{
+    width: 90%; /* Ancho deseado para el contenedor */
+    height: 53vh; /* Altura deseada para el contenedor */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#programa{
+    font-size: 18px;
+    margin-top: 25px; /* Establece el margen superior según tu preferencia */
+    margin-left: 25px; /* Establece el margen izquierdo según tu preferencia */
+    margin-bottom: 0; /* Establece el margen inferior según tu preferencia */
+}
+
+.nomProgramas{
+   font-size: 12px;
+   margin-top: 0px;
+   margin-left: 60px;
+}
+
+.linea {
+    display: flex;
+    align-items: center;
+    width: 70%; /* Ancho deseado para la línea */
+    height: 6px; /* Altura deseada para la línea */
+    position: relative; /* Permite posicionar el círculo relativo a este div */
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+  
+.relleno {
+    height: 100%; /* Ajusta la altura para llenar la línea */
+}
+  
+.circulo {
+    width: 13px; /* Diámetro deseado del círculo */
+    height: 13px; /* Ajusta la altura para que sea un círculo */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    margin-left: -10px;
+}
